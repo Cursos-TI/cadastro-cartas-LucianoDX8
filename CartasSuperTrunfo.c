@@ -1,5 +1,6 @@
 #include <stdio.h>
 //Desafio, Criando as Cartas do Super Trunfo
+//Desenvolvido por Luciano Gonzaga
 
 int main(){
 
