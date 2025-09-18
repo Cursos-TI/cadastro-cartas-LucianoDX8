@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Desafio, Criando as Cartas do Super Trunfo.
+//Desafio, Criando as Cartas do Super Trunfo
 
 int main(){
 
@@ -15,6 +15,10 @@ int main(){
     float area;
     float pib;
     int Nu_Pontos_Turusticos;
+    
+    //Nova atualização abaixo
+    float densidade;
+    float pibPerCapita;
 
     //Criando primeria Carta...
     printf("Número da primeira carta: ");
@@ -42,6 +46,10 @@ int main(){
     scanf("%d", &Nu_Pontos_Turusticos);
     printf("\n");
 
+    //Nova atualização abaixo
+    densidade = populacao / area;  //Calculando densidade
+    pibPerCapita = pib / populacao;  //calculando PIB per capita
+
     //Resultado da primeira carta...
     printf("-- Carta criada com sucesso!!!\n");
     printf("Carta: %d\n", carta);
@@ -52,6 +60,10 @@ int main(){
     printf("Área: %f Km²\n", area);
     printf("PIB: R$ %f\n", pib);
     printf("Número de pontos turísticos: %d\n", Nu_Pontos_Turusticos);
+
+    //Nova atualização abaixo
+    printf("Densidade Populacional: %.2f\n", densidade);
+    printf("PIB Per Capita: %.2f\n", pibPerCapita);
 
     //Criando a segunda carta...
     printf("\n");
@@ -80,6 +92,10 @@ int main(){
     scanf("%d", &Nu_Pontos_Turusticos);
     printf("\n");
 
+    //Nova atualização abaixo
+    densidade = populacao / area;  //Calculando densidade
+    pibPerCapita = pib / populacao;  //calculando PIB per capita
+
     //Resultado da segunda carta...
     printf("-- Carta criada com sucesso!!!\n");
     printf("Carta: %d\n", carta);
@@ -90,6 +106,10 @@ int main(){
     printf("Área: %f Km²\n", area);
     printf("PIB: R$ %f\n", pib);
     printf("Número de pontos turísticos: %d\n", Nu_Pontos_Turusticos);
+
+    //Nova atualização abaixo
+    printf("Densidade Populacional: %.2f\n", densidade);
+    printf("PIB Per Capita: %.2f\n", pibPerCapita);
 
     printf("\n");
     printf("Continua em breve...\n");
